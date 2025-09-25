@@ -3,7 +3,8 @@
   <img src="https://i.countdownmail.com/3nghwl.gif" style="width:401px;" alt="Countdown to November 1st" />
 </p>
 
-![Screenshot 2024-10-07 230129](https://github.com/user-attachments/assets/d797279e-e608-4697-ba23-39538d0ebc7d)
+<img width="1878" height="894" alt="image" src="https://github.com/user-attachments/assets/f6359636-b606-4820-ba36-626e1a3cd590" />
+
 # DSA: Cultivating Knowledge, Fostering Collaboration 👩‍💻
 📌Our aim is to build a website that comprehensively covers algorithms in C++, Java, Python, and other programming languages, along with acknowledging the contributors to this repository.
 
@@ -77,7 +78,7 @@ To get approval of the pull request much quicker and faster (`Follow Me`)🚀
 
 <h2 align=center> ✨ Contributors </h2>
 
-Thanks go to these **Wonderful People** 👨🏻‍💻: 🚀 **Contributions** of any kind are welcome! 
+Thanks to these Amazing Contributors of 2024 👨🏻‍💻 🚀: We truly appreciate your efforts! Contributions of any kind are always welcome.
 
 [![Contributors](https://contrib.rocks/image?repo=yesiamrajeev/Hacktoberfest2024&cacheBuster=321656)](https://github.com/yesiamrajeev/Hacktoberfest2024/graphs/contributors)
 
