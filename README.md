@@ -1,88 +1,53 @@
-<p align="center"> <b>Hurry Up!!</b></p>
-<p align="center">
-  <img src="https://i.countdownmail.com/3nghwl.gif" style="width:401px;" alt="Countdown to November 1st" />
-</p>
+# ThirtySix Studio - Agency Portfolio
 
-<img width="1878" height="894" alt="image" src="https://github.com/user-attachments/assets/f6359636-b606-4820-ba36-626e1a3cd590" />
+![ThirtySix Studio Banner](./36.png)
 
-# DSA: Cultivating Knowledge, Fostering Collaboration 👩‍💻
-📌Our aim is to build a website that comprehensively covers algorithms in C++, Java, Python, and other programming languages, along with acknowledging the contributors to this repository.
+Welcome to **ThirtySix Studio**, a modern, minimalistic agency portfolio built with **React**, **Tailwind CSS**, and **GSAP** animations. This project is designed to showcase a sleek, responsive design with interactive animations, suitable for agencies and freelancers looking for a visually engaging portfolio website.
 
-## This Project Is Perfect For Your First Pull Request
+## Table of Contents
 
-🗣 **Hacktoberfest encourages participation in the open-source community, which grows bigger every year. Complete the challenge and get a tree planted on your name showing your love towards mother Earth 🌍**
+- [About the Project](#about-the-project)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [File Structure](#file-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-📢 **Register [here](https://hacktoberfest.com/auth/) for Hacktoberfest and make four pull requests (PRs) between October 1st-31st 🔥.**
+---
 
-<div align="center">
+## About the Project
 
-<img src="https://img.shields.io/badge/hacktoberfest-2024-blueviolet" alt="Hacktober Badge"/>
- <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
- <a href="https://github.com/yesiamrajeev" ><img src="https://img.shields.io/badge/Contributions-welcome-violet.svg?style=flat&logo=git" alt="Contributions" /></a>
-<a href="https://github.com/yesiamrajeev/Hacktoberfest2024/pulls"><img src="https://img.shields.io/github/issues-pr/yesiamrajeev/Hacktoberfest2024" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/yesiamrajeev/Hacktoberfest2024/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/yesiamrajeev/Hacktoberfest2024?color=2b9348"></a>
+ThirtySix Studio aims to blend modern design principles with seamless animations to provide an exceptional user experience. Leveraging **React** for the front-end, **Tailwind CSS** for styling, and **GSAP** for smooth animations, this project is a great base for building a high-quality portfolio website.
 
-</div>
+## Technologies Used
 
-## INSTRUCTIONS-
+- **React** - JavaScript library for building user interfaces
+- **Tailwind CSS** - Utility-first CSS framework
+- **GSAP** - Animation library for smooth and advanced animations
 
-- Fork this Repository using the button at the top on the right corner.
-- Clone your forked repository to your PC ( git clone "url from clone option.)
-- Create a new branch for your modifications (ie. `git branch new-user` and check it out  `git checkout new-user` or simply do `git checkout -b new-user`)
-- Add your profile image in `static/images/` ( use drag and drop option or upload by commands.)
-- Add your profile data in `content/participant/`
-- Add your files (`git add -A`), commit (`git commit -m "added myself"`) and push (`git push origin new-user`)
-- Create a pull request
-- **(Most Important) Star this repository and Follow me**
+---
 
-# How To Make Your First Pull Request
+## Features
 
-## 1. Create / Upload Your Code / Algorithms
+- **Smooth Animations:** Animated page transitions and interactive elements powered by GSAP.
+- **Minimalistic UI:** Clean, focused design with intuitive navigation.
+- **Reusable Components:** Built with reusable and customizable React components.
 
-Create/Upload your code in the folder following the convention `Add Code Here`
-- Choose an extract language folder `drop your code`
-- Below is `an example` to add file properly
-- You can follow up `any languages`
+---
 
-```
-/PYTHON/<YOUR-FILERNAME>.py
-```
-```
-/C++/<YOUR-FILERNAME>.cpp
-```
+## Getting Started
 
-You can follow any pathway a `code` or `profile information`
+### Prerequisites
 
-## 2. Wait for Pull Request to merge
+Ensure you have **Node.js** and **npm** installed.
 
-## 3. Celebrate - you've done your first pull request!!
+### Installation
 
-- Always make more than 4 pull requests.
-- Let's say you have made only 4 pull requests to different projects,
-but one project is excluded from hackoctoberfest event then your pull request will not be counted and then you have the remaining 3 valid pull requests if these projects are not excluded.
-- If you fail to make 4 pull requests then you can't get swags or t-shirts.
-I will recommend you make a pull request to your own repo which is very very safe for you.
-- Keep in mind that the repo has hacktoberfest topic.
-
-
-## + Follow Me : } Quick Approval of Pull Request
-
-```
-To get approval of the pull request much quicker and faster (`Follow Me`)🚀
-```
-## 🤝 Special Contributor
-| Contributor | Contribution |
-|:-----------:|:------------:|
-| ![Rudra00codes](https://github.com/Rudra00codes.png?size=100) | Helped in creating the **CONTRIBUTION.md** file |
-
-
-<h2 align=center> ✨ Contributors </h2>
-
-Thanks to these Amazing Contributors of 2024 👨🏻‍💻 🚀: We truly appreciate your efforts! Contributions of any kind are always welcome.
-
-[![Contributors](https://contrib.rocks/image?repo=yesiamrajeev/Hacktoberfest2024&cacheBuster=321656)](https://github.com/yesiamrajeev/Hacktoberfest2024/graphs/contributors)
-
-<h2 align=center> Owned by </h2>
-
-<tr><td align="center"><a href="https://github.com/yesiamrajeev"><kbd><img src="https://avatars3.githubusercontent.com/yesiamrajeev?size=100" width="100px;" alt=""/>
-</tr>
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/asynchronousJavascriptor/thirtysixstudio.git
+   cd thirtysixstudio
+   npm install
+   npm run dev
+   server starts on localhost:5173
