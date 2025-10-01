@@ -3,7 +3,7 @@
 <img width="1878" height="894" alt="image" src="https://github.com/user-attachments/assets/f6359636-b606-4820-ba36-626e1a3cd590" />
 
 # DSA: Cultivating Knowledge, Fostering Collaboration 👩‍💻
-📌Our aim is to build a website that comprehensively covers algorithms in C++, Java, Python, and other programming languages, along with acknowledging the contributors to this repository.
+📌Building the ultimate DSA learning hub with enterprise-grade algorithms, performance-optimized data structures, and practical implementations for modern software development.
 
 ## This Project Is Perfect For Your First Pull Request
 
