@@ -1,6 +1,36 @@
----
+--# 🌟 Contributing to Hacktoberfest2025 🧑‍💻
 
-# 🌟 Contributing to Hacktoberfest2024🧑‍💻
+Thank you for considering contributing to our project! We're excited to collaborate with you during **Hacktoberfest 2025**.
+
+Whether you're new to open source or an experienced developer, this guide will help you make a smooth contribution to the project.
+
+## 💡 What is Hacktoberfest?
+
+Hacktoberfest is an annual celebration of open source, organized by DigitalOcean. It's a month-long event open to everyone in the global community, encouraging contributions that strengthen the open-source ecosystem.
+
+### How to Participate:
+
+- Register for Hacktoberfest [here](https://hacktoberfest.com) (if you haven't already).
+- Submit **at least 4 Pull Requests (PRs)** to any open-source repository between `October 1` and `October 31`, 2025.
+- Contributions can be bug fixes, features, documentation improvements, or even small changes like typo corrections.
+
+## 🚀 What We're Looking For (2025 Edition)
+
+### � High-Priority Contributions:
+- **Advanced Data Structures**: Implement complex trees, graphs, and specialized data structures
+- **Algorithm Optimizations**: Improve existing implementations with better time/space complexity
+- **Real-World Applications**: Add practical use cases and examples for algorithms
+- **Performance Analysis**: Include benchmarking and complexity analysis
+- **Interactive Visualizations**: Create visual representations of algorithms in action
+- **Multi-Language Implementations**: Port algorithms between different programming languages
+
+### 📚 Algorithm Categories We Need:
+- **Machine Learning Algorithms**: k-means, neural networks, decision trees
+- **Cryptographic Algorithms**: RSA, AES, hashing functions
+- **Computational Geometry**: Convex hull, line intersection, Voronoi diagrams
+- **String Algorithms**: KMP, Rabin-Karp, suffix arrays
+- **Advanced Graph Algorithms**: Network flows, matching algorithms
+- **Parallel Algorithms**: Multi-threaded implementationsuting to Hacktoberfest2024🧑‍💻
 
 Thank you for considering contributing to our project! We’re excited to collaborate with you during **Hacktoberfest 2024**.
 
