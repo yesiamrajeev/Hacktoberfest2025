@@ -3,7 +3,7 @@
 <img width="1878" height="894" alt="image" src="https://github.com/user-attachments/assets/f6359636-b606-4820-ba36-626e1a3cd590" />
 
 # DSA: Cultivating Knowledge, Fostering Collaboration 👩‍💻
-📌Our aim is to build a website that comprehensively covers algorithms in C++, Java, Python, and other programming languages, along with acknowledging the contributors to this repository.
+📌Our aim is to build a comprehensive repository that covers advanced algorithms and data structures in C++, Java, Python, C#, C, JavaScript and other programming languages, along with acknowledging the contributors to this repository.
 
 ## This Project Is Perfect For Your First Pull Request
 
