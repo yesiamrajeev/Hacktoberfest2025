@@ -1,7 +1,4 @@
-<p align="center"> <b>Hurry Up!!</b></p>
-<p align="center">
-  <img src="https://i.countdownmail.com/3nghwl.gif" style="width:401px;" alt="Countdown to November 1st" />
-</p>
+## This repo has been excluded from hacktoberfest 2025
 
 <img width="1878" height="894" alt="image" src="https://github.com/user-attachments/assets/f6359636-b606-4820-ba36-626e1a3cd590" />
 

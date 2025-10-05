@@ -1,4 +1,7 @@
 // Problem Link:- https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+
+#include <vector>
+using namespace std;
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {

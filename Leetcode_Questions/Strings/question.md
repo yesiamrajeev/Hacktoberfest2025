@@ -6,6 +6,7 @@
 3. ['Permutation in String'](#Q3)
 4. ['Reverse Vowels Of a String'](#Q4)
 5. ['Greatest Common Divisor'](#Q5)
+6. ['longest palindromic sub string'](#Q6)
 
 
 
@@ -144,3 +145,26 @@ Given two strings str1 and str2, return the largest string x such that x divides
 
 <h3>Reference:</h3>
 https://leetcode.com/problems/greatest-common-divisor-of-strings/description/
+
+# #Q6
+
+<h1>Longest Palindromic Substring</h1>
+
+Given a string s, return the longest palindromic substring in s.
+
+### Test Cases 
+
+<h2>Example 1:</h2>
+<h2>Input:</h2> s = "babad"
+<h2>Output:</h2> "bab"
+<h2>Explanation:</h2> "aba" is also a valid answer.
+
+<h2>Example 2:</h2>
+<h2>Input:</h2> s = "cbbd"
+<h2>Output:</h2> "bb"
+
+<h3>Reference:</h3>
+https://leetcode.com/problems/longest-palindromic-substring/description/
+
+
+

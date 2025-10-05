@@ -1,0 +1,2 @@
+DELETE FROM Users
+WHERE LastLogin < DATEADD(YEAR, -1, GETDATE());

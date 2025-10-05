@@ -1,0 +1,104 @@
+/* TypeGuard AI Base Styles */
+:root {
+    --primary-color: #007BFF; /* Primary blue for highlights */
+    --accent-color: #00BCD4;  /* Cyan for status/alerts */
+    --background-dark: #1E1E1E; /* Dark background */
+    --text-light: #F0F0F0;     /* Light text */
+    --code-background: #252526; /* Darker background for code blocks */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background-dark);
+    color: var(--text-light);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+/* Header Section */
+.header {
+    background-color: #2D2D30;
+    padding: 20px 5%;
+    border-bottom: 3px solid var(--primary-color);
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.header p {
+    color: #AAAAAA;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Highlight the 'TypeGuard' aspect */
+.header h1 span {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+/* Code Styling - Crucial for a developer project */
+pre {
+    background-color: var(--code-background);
+    color: #D4D4D4;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto; /* Handles long lines of code */
+    border: 1px solid rgba(0, 123, 255, 0.3);
+}
+
+code {
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 0.95em;
+}
+
+/* Inline code styling */
+p code {
+    background-color: rgba(0, 123, 255, 0.1);
+    color: var(--primary-color);
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+/* Feature/Contribution Card */
+.contribution-card {
+    background-color: #2D2D30;
+    border-left: 5px solid var(--accent-color);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.contribution-card h3 {
+    color: var(--accent-color);
+    margin-top: 0;
+}
+
+/* Optional: Button style for GitHub Link */
+.github-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.github-button:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+}

@@ -1,0 +1,77 @@
+// Dijkstra on Grid
+
+// Let's have a look at a very similar problem as discussed in the video.
+
+// Infinite paths
+// Given a directed weighted graph G and a source node src in the graph, for every node x in G, find the cost of the minimum path from src to x.
+
+// Input
+
+// The first line of each test contains T, the number of test cases. T tests follow.
+// The first line of each test contains three integers N (number of nodes), M  (number of edges), and src (source node)
+// Next M lines contain a description of M edges in the form of three integers u, v, and w, indicating that there is a directed edge from u to v with cost w
+// Output
+
+// For every test case print N lines.
+// If the ith node is reachable from src print the minimum cost to reach i in the ith line.
+// If the ith node is not reachable print "UNREACHABLE" without quotes in the ith line.
+// If the ith node is reachable but there is no minimum cost to reach there, print "-inf" without quotes in the ith line.
+// In this program, we first take input the number of test cases T. Then for each test case, we take input the number of nodes N, the number of edges M, and the source node src. We then create an adjacency list representation of the weighted directed graph using a vector of pairs.
+
+// We then call the Dijkstra function which takes as input the adjacency list, the number of nodes, and the source node. In the function, we first initialize a priority queue to store vertices in increasing order of their distance from the source vertex. We also initialize two vectors - dist to store the minimum distance from the source node to every other node and visited to keep track of whether or not a node has been visited.
+
+// We set the distance of the source node to 0 and push it into the priority queue. We then loop until the priority queue becomes empty. In each iteration, we extract the vertex with the minimum distance from the priority queue and mark it visited. We then iterate through all its adjacent vertices and update their distance if it can be reduced by going through the current vertex. Finally, we print the minimum distance from the source node to every other node.
+
+// Note: This program assumes that there are no negative weight cycles in the graph. If there are negative weight cycles, then the algorithm will go into an infinite loop.
+
+#include<bits/stdc++.h>
+using namespace std;
+#define INF INT_MAX
+typedef pair<int, int> iPair;
+
+void Dijkstra(vector<pair<int,int>> adj[], int V, int src) {
+    priority_queue<iPair, vector<iPair>, greater<iPair>> pq;
+    vector<int> dist(V+1, INF);
+    vector<bool> visited(V+1, false);
+
+    pq.push(make_pair(0, src));
+    dist[src] = 0;
+
+    while(!pq.empty()) {
+        int u = pq.top().second;
+        pq.pop();
+        visited[u] = true;
+
+        for(auto it : adj[u]) { 
+            int v = it.first;
+            int weight = it.second;
+            if(!visited[v] && dist[u]!=INF && dist[u]+weight < dist[v]) {
+                dist[v] = dist[u] + weight;
+                pq.push(make_pair(dist[v], v));
+            }
+        }
+    }
+    for(int i=1; i<=V; i++) {
+        if(dist[i] == INF)
+            cout << "UNREACHABLE" << endl;
+        else if(i != src)
+            cout << dist[i] << endl;
+    }
+}
+
+int main() {
+    int T;
+    cin >> T;
+    while(T--) {
+        int N, M, src;
+        cin >> N >> M >> src;
+        vector<pair<int,int>> adj[N+1];
+        for(int i=0; i<M; i++) {
+            int u, v, w;
+            cin >> u >> v >> w;
+            adj[u].push_back(make_pair(v,w));
+        }
+        Dijkstra(adj, N, src);
+    }
+    return 0;
+}
